@@ -1,0 +1,221 @@
+/*header section start*/
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: #111A29;
+	padding: 5px 0;
+}
+.wrapper{
+	overflow: hidden;
+	width: 80%;
+	/*border: solid 3px yellow;*/
+	margin: 0 auto;
+}
+.logo{
+	/*border: solid 1px red;*/
+	width: 17%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	/*border: solid 1px red;*/
+	width: 70%;
+	float: right;
+	margin-top: 35px;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	display: block;
+	transition: 1s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #127CBE;
+}
+/*header section end*/
+/*banner section start*/
+.banner{
+	background-image: url(../images/bannerok4.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 50%;
+	/*border: 1px solid red;*/
+	font-family: sans-serif;
+	margin-top: 150px;
+	margin-bottom: 60px;
+}
+.b_content h1{
+	/*font-family: sans-serif;*/
+	font-weight: 400;
+	font-size: 38px;
+	color: black;
+}
+.b_content h2{
+	/*font-family: sans-serif;*/
+    /*font-weight: 700;*/
+    font-size: 42px;
+    color: green;
+}
+.b_content p{
+	/*font-family: sans-serif;*/
+    /*font-weight: 400;*/
+    font-size: 19px;
+    color: black;
+    line-height: 25px;
+}
+.b_content button{
+	/*font-family: sans-serif;*/
+    /*font-weight: 400;*/
+    font-size: 25px;
+    color: #404956;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+/*banner section end*/
+/*1st-service section start*/
+.service{
+	background-color: #111A2B;
+	padding-top: 30px;
+    padding-bottom: 15px;
+}
+.single{
+	width: 29%;
+    /* border: 1px solid red; */
+    padding: 0px 2.6%;
+    font-family: sans-serif;
+    float: left;
+}
+.top{
+	overflow: hidden;
+}
+.t_logo{
+	width: 25%;
+	/*border: 1px solid white;*/	
+	float: left;
+}
+.t_logo img{
+	width: 100%;
+}
+.t_text{
+	width: 65%;
+	/*border: 1px solid white;*/
+	float: left;
+	margin-top: 18px;
+}
+.t_text h1{
+	/*font-family: sans-serif;*/
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+}
+.t_text h2{
+	/*font-family: sans-serif;*/
+    font-weight: 400;
+    font-size: 25px;
+    color: #1E7DA4;
+}
+.bottom{
+	margin-top: 22px;
+}
+.bottom p{
+	/*font-family: sans-serif;*/
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 23px;
+}
+.single:last-child{
+	padding-right: 0;
+}
+/*1st-service section end*/
+/*contant section start*/
+/*contact 1st item start*/
+.contact{
+	background-color: #03060F;
+}
+.c_contact{
+	float: left;
+	font-family: sans-serif;
+	width: 29%;
+	/*border: 1px solid red;*/
+	padding: 50px 22px 65px;
+	/*font-weight: 400;*/
+}
+.c_contact h1{
+	/*font-family: sans-serif;*/
+	font-weight: 400;
+    /*font-size: 24px;*/
+    color: white;
+    display: inline-block;
+}
+.c_contact h2{
+	/*font-family: sans-serif;*/
+	font-weight: 400;
+    /*font-size: 24px;*/
+    color: #10669F;
+    display: inline-block;
+}
+.c_contact h3{
+	/*font-family: sans-serif;*/
+	font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.c_contact h4{
+	/*font-family: sans-serif;*/
+	font-weight: 400;
+    /*font-size: 16px;*/
+    color: white;
+}
+
+.footer{
+	background-color: #111A2B;
+	overflow: hidden;
+	min-height: 80px;
+}
+}
+.footer ul{
+	float: right;
+
+}
+.footer ul li{
+	list-style: none;
+	float: left;
+	margin-top: 35px;
+	margin-right: 135px;
+}
+.footer ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	display: block;
+	transition: 1s;
+}
+
+/*contact 1st item end*/
+/*contant section end*/
